@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.javaquiz.third_question">
+
+    <TextView
+        android:id="@+id/three_out_of_ten_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/datalatin"
+        android:padding="10dp"
+        android:text="@string/q3"
+        android:textAlignment="center"
+        android:textColor="#D50000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/question_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/three_out_of_ten_textview"
+        android:padding="20dp"
+        android:text="@string/question3"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_textview"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <RadioButton
+            android:id="@+id/question3_option1_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a3"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question3_option2_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/b3"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question3_option3_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c3"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/question3_option4_radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/d3"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:background="#F44336"
+        android:fontFamily="@font/datalatin"
+        android:onClick="onClick"
+        android:text="@string/next"
+        android:textSize="20sp" />
+
+</RelativeLayout>

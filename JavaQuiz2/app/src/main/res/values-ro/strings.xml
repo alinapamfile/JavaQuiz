@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urm:oasis:names:tc:xliff:document:1.2">
+    <string name="your_name">Numele tau</string>
+    <string name="q1">Intrebarea 1/10</string>
+    <string name="q2">Intrebarea 2/10</string>
+    <string name="q3">Intrebarea 3/10</string>
+    <string name="q4">Intrebarea 4/10</string>
+    <string name="q5">Intrebarea 5/10</string>
+    <string name="q6">Intrebarea 6/10</string>
+    <string name="q7">Intrebarea 7/10</string>
+    <string name="q8">Intrebarea 8/10</string>
+    <string name="q9">Intrebarea 9/10</string>
+    <string name="q10">Intrebarea 10/10</string>
+    <string name="indication">Pot exista mai multe raspunsuri corecte.</string>
+    <string name="next">Urmatoarea</string>
+    <string name="finish">Termina</string>
+    <string name="question1">Care din urmatoarele nu sunt cuvinte cheie in Java?</string>
+    <string name="question2">Alege un tip de data potrivita pentru: isSwimmer</string>
+    <string name="question3">Care este valoarea initiala a variabilelor locale?</string>
+    <string name="c3">depinde de tipul de data</string>
+    <string name="d3">nu au valoare initiala</string>
+    <string name="question4">De la ce vine prescurtarea GUI?</string>
+    <string name="question5">Ce este atribuirea?</string>
+    <string name="a5">adaugarea unui numar la o variabila de tip int</string>
+    <string name="b5">atribuirea unei inmultiri</string>
+    <string name="c5">atribuirea unui nume la o variabila</string>
+    <string name="d5">atribuirea unei valori la o variabila</string>
+    <string name="question6">Care este consecinta urmatoarei linii de cod: int num = 6.7</string>
+    <string name="a6">eroare de compilare</string>
+    <string name="b6">eroare la rulare</string>
+    <string name="c6">num va fi 6.7</string>
+    <string name="d6">num va fi 6</string>
+    <string name="question7">Clasa B provine din clasa A. Ce nu se poate spune?</string>
+    <string name="a7">B este o super clasa a lui A</string>
+    <string name="b7">B are acces la membri declarati \"private\" ai lui A</string>
+    <string name="c7">B are acces la membri declarati \"protected\" a lui A</string>
+    <string name="question8">Ultima valoare dintr-un vector numit ar are indicele:</string>
+    <string name="question9">Care este varianta corecta de declarare a unei variabile?</string>
+    <string name="a9">numeVariabila tipVariabila;</string>
+    <string name="b9">numeVariabila;</string>
+    <string name="c9">tipVariabila;</string>
+    <string name="d9">tipVariabila numeVariabila;</string>
+    <string name="question10">int ar = {1,2,3,4,5}; Care este valoarea lui ar[3]?</string>
+    <string name="the_answers">Raspunsurile corecte</string>
+    <string name="your_score">Afla-ti scorul!</string>
+    <string name="your_result1"><xliff:g id="name" example="Amy">%s</xliff:g>, scorul tau este: "</string>
+</resources>

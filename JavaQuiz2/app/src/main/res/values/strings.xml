@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urm:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name" translatable="false">Java Quiz</string>
+
+    <string name="title" translatable="false">The Beginner Quiz</string>
+    <string name="your_name">Your name</string>
+    <string name="start" translatable="false">Start</string>
+
+    <string name="q1">Question 1/10</string>
+    <string name="q2">Question 2/10</string>
+    <string name="q3">Question 3/10</string>
+    <string name="q4">Question 4/10</string>
+    <string name="q5">Question 5/10</string>
+    <string name="q6">Question 6/10</string>
+    <string name="q7">Question 7/10</string>
+    <string name="q8">Question 8/10</string>
+    <string name="q9">Question 9/10</string>
+    <string name="q10">Question 10/10</string>
+
+    <string name="indication">There can be many correct answers.</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+
+    <string name="question1">Which of the following are not Java keywords?</string>
+    <string name="a1" translatable="false">try</string>
+    <string name="b1" translatable="false">string</string>
+    <string name="c1" translatable="false">Integer</string>
+    <string name="d1" translatable="false">new</string>
+
+    <string name="question2">Choose the appropriate data type for this field: isSwimmer</string>
+    <string name="a2" translatable="false">double</string>
+    <string name="b2" translatable="false">boolean</string>
+    <string name="c2" translatable="false">String</string>
+    <string name="d2" translatable="false">int</string>
+
+    <string name="question3">What is the default value of the local variables?</string>
+    <string name="a3" translatable="false">null</string>
+    <string name="b3" translatable="false">0</string>
+    <string name="c3">depends on the data type</string>
+    <string name="d3">no default value</string>
+
+    <string name="question4">What does GUI stands for?</string>
+    <string name="a4" translatable="false">Graphical User Interface</string>
+    <string name="b4" translatable="false">Gimme Ur Internet</string>
+    <string name="c4" translatable="false">Grand User Interface</string>
+    <string name="d4" translatable="false">Graphical Useful Interface</string>
+
+    <string name="question5">What is an assignment statement?</string>
+    <string name="a5">adding a number to an int</string>
+    <string name="b5">assigning a multiplication </string>
+    <string name="c5">assigning a name to a variable</string>
+    <string name="d5">assigning a value to a variable</string>
+
+    <string name="question6">The following code will result in: int num = 6.7</string>
+    <string name="a6">compilation error</string>
+    <string name="b6">runtime error</string>
+    <string name="c6">num being 6.7</string>
+    <string name="d6">num being 6</string>
+
+    <string name="question7">Class B inherits from Class A. What cannot be said?</string>
+    <string name="a7">B is a super-class of A</string>
+    <string name="b7">B has access to private members of A</string>
+    <string name="c7">B has access to protected members of A</string>
+
+    <string name="question8">The last value in an array called ar can be found at index:</string>
+    <string name="a8" translatable="false">0</string>
+    <string name="b8" translatable="false">1</string>
+    <string name="c8" translatable="false">ar.length</string>
+    <string name="d8" translatable="false">ar.length - 1</string>
+
+    <string name="question9">What is the proper way to declare a variable?</string>
+    <string name="a9">variableName variableType;</string>
+    <string name="b9">variableName;</string>
+    <string name="c9">variableType;</string>
+    <string name="d9">variableType variableName;</string>
+
+    <string name="question10">int ar = {1,2,3,4,5}; What is the value of ar[3]?</string>
+    <string name="answer_10" translatable="false">4</string>
+
+    <string name="the_answers">The Correct Answers</string>
+    <string name="your_score">See your score!</string>
+
+    <string name="your_result1"><xliff:g id="name" example="Amy">%s</xliff:g>, your score is: </string>
+    <string name="your_result2" translatable="false"><xliff:g id="name" example="Amy">%d</xliff:g>/100</string>
+</resources>

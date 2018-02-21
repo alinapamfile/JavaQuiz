@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.javaquiz.MainActivity">
+
+    <ImageView
+        android:id="@+id/java_logo_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/java" />
+
+    <TextView
+        android:id="@+id/quiz_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/java_logo_imageview"
+        android:fontFamily="@font/datalatin"
+        android:paddingBottom="40dp"
+        android:paddingTop="40dp"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="#D50000"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/users_name_editext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quiz_title_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:hint="@string/your_name"
+        android:inputType="textCapWords"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="#F44336"
+        android:fontFamily="@font/datalatin"
+        android:onClick="onClick"
+        android:text="@string/start"
+        android:textSize="20sp" />
+</RelativeLayout>
